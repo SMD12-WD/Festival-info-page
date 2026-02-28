@@ -1,0 +1,107 @@
+body {
+    background: #FFFDF5;
+    color: black;
+}
+.main-heading {
+    text-align: center;
+}
+.header {
+    background-color: linear-gradient(135deg, #FF8C42, #FFE8D6);;   /* soft festival orange tint */
+    padding: 20px 20px;         /* makes it tall like a banner */
+    text-align: center;
+     box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+     border-bottom: 5px solid #FF8C42;
+     width: 100%;
+     max-width: 100%;
+}
+.p1 {
+    text-align: center;
+    font-size: 18px;
+    margin-top: -8px;
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    margin-left: -12px;
+    color: #ffdd57;        /* color when hovered */
+  transition: color 0.3s ease;
+}
+#nav-header a {
+    text-decoration: none;
+    color: #FF8C42;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 8px 8px;
+    border-radius: 5px;
+    transition: all 0.3s ease;  
+}
+#nav-header a:hover {
+    background-color: #4b4a49;    /* soft peach background on hover */
+    color: #fff;                  /* text turns white */
+    transform: translateY(-3px);  /* slight lift effect */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+#ULTRA, #corona, #kunye, #ctjif  {
+    text-align: center;
+}
+#img, #img-3, #img-4 {
+    display: block;
+    margin: 20px auto;
+    width: auto; 
+    max-width: 100%;
+    height: 300px;
+    max-height: 100%;
+}
+#img-2 {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    height: 300px;
+    width: 500px;
+    margin: 20px auto;
+}
+.p2, .p3, .p4, .p5, .p8, .p9, .p10, .p12, .p13, .p14, .p16, .p17, .p18, .p19 {
+    font-size: 16px;
+    font-family: 'Segoe UI', sans-serif;
+}
+.p-1, .p6, .p11, .p15 {
+    font-size: 16px;
+     font-family: Arial, sans-serif;
+     line-height: 1.8;
+     text-align: center;
+}
+#nav-fotter li {
+    text-align: center;
+}
+
+#nav-fotter {
+  background-color: #333; /* dark gray */
+  color: #f1f1f1;
+  padding: 30px 0; 
+}
+#nav-fotter a {
+  color: white;          /* your desired link color */
+}
+#nav-fotter a:hover {
+  color: #ffdd57;        /* color when hovered */
+  transition: color 0.3s ease;
+}
+#footer {
+ background-color: #333; /* dark gray */
+  color: #f1f1f1;
+  padding: 30px 0;    
+}
+#form {
+    text-align: center;
+}
+#footer-p {
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
