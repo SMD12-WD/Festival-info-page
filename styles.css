@@ -6,8 +6,8 @@ body {
     text-align: center;
 }
 .header {
-    background-color: linear-gradient(135deg, #FF8C42, #FFE8D6);;   /* soft festival orange tint */
-    padding: 20px 20px;         /* makes it tall like a banner */
+    background-color: linear-gradient(135deg, #FF8C42, #FFE8D6);;   
+    padding: 20px 20px;         
     text-align: center;
      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
      border-bottom: 5px solid #FF8C42;
@@ -29,7 +29,7 @@ nav ul {
     gap: 20px;
     width: 100%;
     margin-left: -12px;
-    color: #ffdd57;        /* color when hovered */
+    color: #ffdd57;        
   transition: color 0.3s ease;
 }
 #nav-header a {
@@ -42,9 +42,9 @@ nav ul {
     transition: all 0.3s ease;  
 }
 #nav-header a:hover {
-    background-color: #4b4a49;    /* soft peach background on hover */
-    color: #fff;                  /* text turns white */
-    transform: translateY(-3px);  /* slight lift effect */
+    background-color: #4b4a49;    
+    color: #fff;                  
+    transform: translateY(-3px);  
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 #ULTRA, #corona, #kunye, #ctjif  {
@@ -81,19 +81,19 @@ nav ul {
 }
 
 #nav-fotter {
-  background-color: #333; /* dark gray */
+  background-color: #333; 
   color: #f1f1f1;
   padding: 30px 0; 
 }
 #nav-fotter a {
-  color: white;          /* your desired link color */
+  color: white;          
 }
 #nav-fotter a:hover {
-  color: #ffdd57;        /* color when hovered */
+  color: #ffdd57;        
   transition: color 0.3s ease;
 }
 #footer {
- background-color: #333; /* dark gray */
+ background-color: #333; 
   color: #f1f1f1;
   padding: 30px 0;    
 }
@@ -104,4 +104,5 @@ nav ul {
     text-align: center;
     font-size: 16px;
     font-family: Arial, sans-serif;
+
 }
